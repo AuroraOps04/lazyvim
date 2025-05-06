@@ -4,3 +4,4 @@
 --
 -- vim.opt.noswapfile = true
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
+vim.o.spell = false
