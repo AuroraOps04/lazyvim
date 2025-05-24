@@ -33,6 +33,13 @@ return {
     import = "lazyvim.plugins.extras.formatting.prettier",
   },
   {
+
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup()
+    end,
+  },
+  {
     "saghen/blink.cmp",
     opts = function(_, opts)
       opts.keymap.preset = "super-tab"

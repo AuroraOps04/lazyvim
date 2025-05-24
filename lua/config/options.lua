@@ -3,5 +3,6 @@
 -- Add any additional options here
 --
 -- vim.opt.noswapfile = true
+vim.g.lazy_git_default_protocol = "git"
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 vim.o.spell = false
