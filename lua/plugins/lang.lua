@@ -21,6 +21,9 @@ return {
     import = "lazyvim.plugins.extras.lang.vue",
   },
   {
+    import = "lazyvim.plugins.extras.lang.python",
+  },
+  {
     import = "lazyvim.plugins.extras.lang.java",
   },
   {
@@ -39,10 +42,21 @@ return {
       require("colorizer").setup()
     end,
   },
+  "karb94/neoscroll.nvim",
   {
     "saghen/blink.cmp",
     opts = function(_, opts)
       opts.keymap.preset = "super-tab"
     end,
+  },
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
   },
 }
