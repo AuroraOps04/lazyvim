@@ -13,7 +13,6 @@ return {
           i = "@attribute.inner",
         }),
       })
-      print(vim.inspect(opts))
     end,
   },
 }
