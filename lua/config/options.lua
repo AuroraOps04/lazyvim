@@ -6,7 +6,11 @@
 vim.g.lazy_git_default_protocol = "git"
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 vim.g.lazyvim_check_order = false
-LazyVim.terminal.setup("pwsh")
+
+if vim.fn.has("win32") == 1 then
+  LazyVim.terminal.setup("pwsh")
+end
+
 vim.o.spell = false
 vim.o.wrap = true
 vim.o.iskeyword = vim.o.iskeyword .. ",-"
