@@ -46,12 +46,9 @@ return {
       require("colorizer").setup()
     end,
   },
-  "karb94/neoscroll.nvim",
   {
-    "saghen/blink.cmp",
-    opts = function(_, opts)
-      opts.keymap.preset = "super-tab"
-    end,
+    "karb94/neoscroll.nvim",
+    opts = {},
   },
   {
     "folke/tokyonight.nvim",
