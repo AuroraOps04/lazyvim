@@ -10,3 +10,6 @@ LazyVim.terminal.setup("pwsh")
 vim.o.spell = false
 vim.o.wrap = true
 vim.o.iskeyword = vim.o.iskeyword .. ",-"
+
+vim.g.lazyvim_prettier_needs_config = false
+vim.g.lazyvim_eslint_auto_format = true
